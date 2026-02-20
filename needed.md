@@ -10,5 +10,5 @@
 
 4. AWS_PROFILE=my-sst-user npx sst remove
    --removes the aws resources
-5. verify identity in ses
+5. verify identity in ses to be able to send emails in sandbox mode
    --go to ses in aws and confirm your email
