@@ -1,7 +1,7 @@
-# .github/workflows/deploy.yml
 name: Deploy
 
 on:
+  # on push to the main branch, trigger the deployment workflow
   push:
     branches:
       - main
