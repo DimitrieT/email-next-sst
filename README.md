@@ -1,6 +1,10 @@
 # email-next-sst SST + Next.js example
 
-This project shows a minimal SST app deploying a Next.js site with a single page form that accepts an email payload. Email sending is currently disabled.
+![alt text](image.png)
+
+This project shows a minimal SST app deploying a Next.js site with a single page form that accepts an email payload. Email sending is currently disabled only because we need a domain verification to be able to send emails.
+
+setup
 
 Quick start
 
@@ -16,7 +20,6 @@ npm install
 2. Deploy with SST:
 
 ```bash
-# optional: export AWS_REGION=us-east-1
 npm run deploy
 ```
 
@@ -30,4 +33,4 @@ npm run dev
 
 Notes
 
-Note: email sending via SES was removed. You can re-enable SES and set `FROM_EMAIL` later if needed.
+Note: you can also use the github pipeline to push new features that would deploy the app
