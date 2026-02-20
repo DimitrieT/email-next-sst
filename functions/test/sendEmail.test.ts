@@ -1,4 +1,3 @@
-// functions/sendEmail.test.ts
 import { mockClient } from 'aws-sdk-client-mock';
 import {
   EventBridgeClient,
